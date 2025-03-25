@@ -1,0 +1,596 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff; 
+  background-color: darkseagreen;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  color: #ffffff; 
+  margin: 0.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ffffff; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.info-box {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 1rem auto;
+  z-index: 1;
+}
+
+.info-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff; 
+}
+
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  z-index: 1;
+}
+.my-button {
+  background-color: #f5cca3;
+  color: white;
+  border: none;
+  padding: 30px 40px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.my-button:hover {
+  background-color: #f5cca3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%; 
+  text-align: center; 
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: auto; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+
+
+
+/* Gen/* General Body Styles */
+.bodyx {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4e4e78;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title Styles */
+.h1x {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Subtitle Styles */
+.subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+/* Map Styles */
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+/* Instructions Styles */
+.instructions {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Button Container Styles */
+.button-boxx {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.my-buttonn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-buttonn:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+
+.bodyyx {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #b7c6ff;
+  text-align: center;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.h11 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.category h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.category p {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.my-buttonn {
+  background: #f5cca3;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+}
+
+.my-buttonn:hover {
+  background: #f5cca3;
+  transform: translateY(-5px);
+}
+
+.button-boxx {
+  margin: 1rem;
+  z-index: 1;
+}
+
+.my-buttonnn {
+  background: #f5cca3;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: left;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+  position: fixed;  
+  top: 10px;  
+  left: 10px;  
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal h2 {
+  font-size: 1.8rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.modal img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.modal p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal ul li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+.bodyyy {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #f5cca3; /* Dark green for text */
+  text-align: center;
+  background: #e0f7fa; /* Light eco-friendly background */
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  z-index: 1;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.h111 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #f5cca3; /* Dark green for title */
+  margin: 0;
+}
+
+.button-boxx {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.my-buttonn {
+  background: #f5cca3; /* Light green for buttons */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+}
+
+.my-buttonn:hover {
+  background: #f5cca3; /* Darker green on hover */
+  transform: translateY(-5px);
+}
+
+.save-progress {
+  font-size: 1rem;
+  color: #f5cca3; /* Dark green for text */
+}
+
+/* Masonry Layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 1rem; /* Add some margin for a non-aligned look */
+}
+
+.card:nth-child(odd) {
+  transform: rotate(2deg); /* Slight rotation for odd cards */
+}
+
+.card:nth-child(even) {
+  transform: rotate(-2deg); /* Slight rotation for even cards */
+}
+
+.card:hover {
+  transform: rotate(0) translateY(-10px); /* Reset rotation on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  color: #f5cca3; /* Dark green for headings */
+  margin-bottom: 1.5rem;
+}
+
+input[type="number"], input[type="text"], select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #f5cca3; /* Light green border */
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  background: #f5cca3; /* Light green for buttons */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+  background: #f5cca3; /* Darker green on hover */
+  transform: translateY(-5px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f5cca3; /* Light green border */
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.progress-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: 1rem 0;
+  overflow: hidden;
+  border: 1px solid #f5cca3; /* Light green border */
+}
+
+.progress {
+  height: 10px;
+  background: #f5cca3; /* Light green for progress bar */
+  width: 0;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.notification {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: #f5cca3; /* Light green for notifications */
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  display: none;
+  z-index: 3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: #f5cca3;
+}
